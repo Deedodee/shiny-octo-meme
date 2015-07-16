@@ -1,0 +1,46 @@
+button{
+	background: url(../img/RedButton.png) no-repeat;
+	height: 268px;
+	width: 268px;
+	border-radius: 99999px;
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	border: 3px solid black;
+	color: #2E426B;
+}
+
+body{
+	background-color: #7A7070;
+}
+
+li{
+	color: #EAA959;
+	height: 30px;
+    line-height: 30px;
+}
+
+ul{
+	list-style-image: url(../img/octomegamanbullet.png);
+}
+
+.li-nk{
+	background-image: url(../img/octolink.png);
+	text-indent: -999999999px;
+	width: 53px;
+	margin-right: 5px;
+	height: 53px;
+}
+
+.li-nk:hover{
+	background-image: url(../img/shadedoctolink.png);
+}
+
+.navbar-brand{
+	background-image: url(../img/octomario.png);
+	width: 53px;
+	height: 53px;
+}
+
+.navbar-brand:hover{
+	background-image: url(../img/shadedoctomario.png);
+}

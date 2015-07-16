@@ -5,6 +5,8 @@ function todo() {
 	if (reply == ""){
 		alert("YOU DIDN'T PUT ANYTIHING IN!");
 		todo();
+	} else if (reply == null){
+		alert("You didn't wanna put anything in? Fine.")
 	} else {
 		array.push(reply);
 		var node = document.createElement("LI");                 // Create a <li> node
